@@ -1,4 +1,4 @@
-# Álcool ou Gasolina? :fuelpump:
+# Álcool ou Gasolina? (Adaptativo) :fuelpump:
 
 > **Aluna:** Yanna Torres
 > 
@@ -8,7 +8,7 @@
 > 
 > **Professor:** Dr. Windson Viana
 
-**Sumário: [A Atividade](#a-atividade-page_with_curl) • [Ícone, Paleta de Cores e Novo Layout](#ícone-paleta-de-cores-e-layouts-paintbrush) • [Suporte para várias línguas](#suporte-para-várias-línguas-book) • [Suporte a duas classes de Tamanho de Tela](#suporte-a-duas-classes-de-tamanho-de-tela-iphone) •**
+**Sumário: [A Atividade](#a-atividade-page_with_curl) • [Ícone, Paleta de Cores e Novo Layout](#ícone-paleta-de-cores-e-layouts-paintbrush) • [Suporte para várias línguas](#suporte-para-várias-línguas-book) • [Suporte a duas classes de Tamanho de Tela](#suporte-a-duas-classes-de-tamanho-de-tela-iphone) • [Resultados](#resultados-play_or_pause_button) •**
 
 ## A atividade :page_with_curl:
 
@@ -55,3 +55,7 @@ Por fim, o app também possui suporte a tamanhos variados de tela, mais especifi
 | ![Big Screen Layout](nexus10.png)  |
 |------------------------------------|
 | ![Small Screen Layout](nexusS.png) |
+
+## Resultados :play_or_pause_button:
+
+Como o funcionamento do app não mudou, apenas seu layout você pode encontrar a sua demonstração no repositório orginal: [Álcool ou Gasolina (original)](https://github.com/yanna-torres/alcool-ou-gasolina/blob/main/README.md#resultados-play_or_pause_button)
