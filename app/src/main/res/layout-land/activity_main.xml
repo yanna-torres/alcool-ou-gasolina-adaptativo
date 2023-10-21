@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1B4F4"
+    android:backgroundTint="#E1B4F4"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rounded_layout"
+        android:backgroundTint="?android:backgroundTint"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="353dp"
+            android:layout_height="match_parent"
+            android:baselineAligned="false"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/logo_description"
+                android:paddingVertical="10dp"
+                android:textAlignment="center"
+                app:srcCompat="@mipmap/pmd_logo_foreground" />
+
+            <TextView
+                android:id="@+id/titulo"
+                style="@style/TITLE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:text="@string/title"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/result"
+                style="@style/RESULT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rounded_layout"
+            android:backgroundTint="?android:backgroundTint"
+            android:orientation="vertical"
+            android:paddingHorizontal="34dp"
+            android:paddingTop="25dp">
+
+            <TextView
+                android:id="@+id/textView"
+                style="@style/LABEL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:text="@string/label_text_gas"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/edGasolina"
+                style="@style/INPUT"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="5dp"
+                android:drawableStart="@drawable/custom_gas_icon"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="@string/hint_text_gas"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/LABEL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:text="@string/label_text_alcool"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/edAlcool"
+                style="@style/INPUT"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="5dp"
+                android:drawableStart="@drawable/custom_gas_icon"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="@string/hint_text_gas"
+                android:inputType="numberDecimal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/swPercentual"
+                    style="@style/SWITCH"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:text="75%" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/btCalcular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginVertical="5dp"
+                    android:backgroundTint="#6622CC"
+                    android:paddingHorizontal="20dp"
+                    android:text="@string/actionText"
+                    app:cornerRadius="15dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
