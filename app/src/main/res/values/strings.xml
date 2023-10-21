@@ -1,10 +1,13 @@
 <resources>
-    <string name="app_name">Álcool ou gasolina?</string>
-    <string name="logo_description">Uma bomba de gasolina com uma gota caindo</string>
-    <string name="title">Álcool ou Gasolina?</string>
-    <string name="label_text_gas">Preço da Gasolina</string>
-    <string name="hint_text_gas">Preço da gasolina</string>
-    <string name="label_text_alcool">Preço do Álcool</string>
-    <string name="hint_text_alcool">Preço do álcool</string>
-    <string name="actionText">Calcular</string>
+    <string name="app_name">Alcohol or Gas?</string>
+    <string name="logo_description">A gas pump with a falling drop</string>
+    <string name="title">Alcohol or Gas?</string>
+    <string name="label_text_gas">Gas Price</string>
+    <string name="hint_text_gas">Gas Price</string>
+    <string name="label_text_alcool">Price of Alcohol</string>
+    <string name="hint_text_alcool">Price of Alcohol</string>
+    <string name="actionText">Calculate</string>
+    <string name="valid_values">Insert valid values</string>
+    <string name="alcohol_worth">Alcohol is worth it!</string>
+    <string name="alcohol_not_worth">Alcohol is NOT worth it!</string>
 </resources>

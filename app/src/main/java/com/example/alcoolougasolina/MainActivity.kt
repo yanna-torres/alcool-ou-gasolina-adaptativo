@@ -43,12 +43,12 @@ class MainActivity : AppCompatActivity() {
                 var gasPrice: Double = gasEdtTxt.text.toString().toDouble()
                 var etanolPrice: Double = alcEdtTxt.text.toString().toDouble()
                 if(etanolPrice <= percentual*gasPrice) {
-                    resTxt.setText("Álcool vale a pena!")
+                    resTxt.setText(R.string.alcohol_worth)
                 } else {
-                    resTxt.setText("Álcool NÃO vale a pena!")
+                    resTxt.setText(R.string.alcohol_not_worth)
                 }
             } else {
-                resTxt.setText("Insira valores válidos")
+                resTxt.setText(R.string.valid_values)
             }
         })
 

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Álcool ou Gasolina?</string>
+    <string name="logo_description">Uma bomba de gasolina com uma gota caindo</string>
+    <string name="title">Álcool ou Gasolina?</string>
+    <string name="label_text_gas">Preço da Gasolina</string>
+    <string name="hint_text_gas">Preço da gasolina</string>
+    <string name="label_text_alcool">Preço do Álcool</string>
+    <string name="hint_text_alcool">Preço do Álcool</string>
+    <string name="actionText">Calcular</string>
+    <string name="valid_values">Insira valores válidos</string>
+    <string name="alcohol_worth">Álcool vale a pena!</string>
+    <string name="alcohol_not_worth">Álcool NÃO vale a pena!</string>
+</resources>
