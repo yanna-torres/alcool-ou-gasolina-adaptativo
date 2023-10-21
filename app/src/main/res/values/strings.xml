@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Álcool ou gasolina?</string>
+    <string name="logo_description">Uma bomba de gasolina com uma gota caindo</string>
+    <string name="title">Álcool ou Gasolina?</string>
+    <string name="label_text_gas">Preço da Gasolina</string>
+    <string name="hint_text_gas">Preço da gasolina</string>
+    <string name="label_text_alcool">Preço do Álcool</string>
+    <string name="hint_text_alcool">Preço do álcool</string>
+    <string name="actionText">Calcular</string>
+</resources>
